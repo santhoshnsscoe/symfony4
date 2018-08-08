@@ -1,0 +1,96 @@
+
+Autowirable Services
+====================
+
+ The following classes & interfaces can be used as type-hints when autowiring:
+
+ -------------------------------------------------------------------------- 
+  App\Controller\ArticleController                                          
+  App\Service\MarkdownHelper                                                
+  Doctrine\Common\Annotations\Reader                                        
+      alias to annotations.cached_reader                                    
+  EasyCorp\EasyLog\EasyLogHandler                                           
+  Http\Client\Common\PluginClientFactory                                    
+  Http\Client\HttpAsyncClient                                               
+      alias to httplug.async_client.default                                 
+  Http\Client\HttpClient                                                    
+      alias to httplug.client.app.http_methods                              
+  Http\HttplugBundle\Collector\PluginClientFactoryListener                  
+  Http\Message\MessageFactory                                               
+      alias to httplug.message_factory.default                              
+  Http\Message\RequestFactory                                               
+      alias to httplug.message_factory.default                              
+  Http\Message\ResponseFactory                                              
+      alias to httplug.message_factory.default                              
+  Http\Message\StreamFactory                                                
+      alias to httplug.stream_factory.default                               
+  Http\Message\UriFactory                                                   
+      alias to httplug.uri_factory.default                                  
+  Knp\Bundle\MarkdownBundle\MarkdownParserInterface                         
+      alias to markdown.parser.light                                        
+  Michelf\MarkdownInterface                                                 
+      alias to markdown.parser.light                                        
+  Nexy\Slack\Client                                                         
+      alias to nexy_slack.client                                            
+  Psr\Cache\CacheItemPoolInterface                                          
+      alias to cache.app                                                    
+  Psr\Container\ContainerInterface                                          
+      alias to service_container                                            
+  Psr\Log\LoggerInterface                                                   
+      alias to monolog.logger                                               
+  Psr\SimpleCache\CacheInterface                                            
+      alias to cache.app.simple                                             
+  SensioLabs\Security\Command\SecurityCheckerCommand                        
+  SensioLabs\Security\SecurityChecker                                       
+  SessionHandlerInterface                                                   
+      alias to session.handler                                              
+  Symfony\Bundle\FrameworkBundle\Controller\RedirectController              
+  Symfony\Bundle\FrameworkBundle\Controller\TemplateController              
+  Symfony\Component\Asset\Packages                                          
+      alias to assets.packages                                              
+  Symfony\Component\Cache\Adapter\AdapterInterface                          
+      alias to cache.app                                                    
+  Symfony\Component\DependencyInjection\ContainerInterface                  
+      alias to service_container                                            
+  Symfony\Component\DependencyInjection\ParameterBag\ContainerBagInterface  
+      alias to parameter_bag                                                
+  Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface  
+      alias to parameter_bag                                                
+  Symfony\Component\EventDispatcher\EventDispatcherInterface                
+      alias to debug.event_dispatcher                                       
+  Symfony\Component\Filesystem\Filesystem                                   
+      alias to filesystem                                                   
+  Symfony\Component\HttpFoundation\RequestStack                             
+      alias to request_stack                                                
+  Symfony\Component\HttpFoundation\Session\Flash\FlashBagInterface          
+      alias to session.flash_bag                                            
+  Symfony\Component\HttpFoundation\Session\SessionInterface                 
+      alias to session                                                      
+  Symfony\Component\HttpFoundation\Session\Storage\SessionStorageInterface  
+      alias to session.storage.native                                       
+  Symfony\Component\HttpKernel\Config\FileLocator                           
+      alias to file_locator                                                 
+  Symfony\Component\HttpKernel\Debug\FileLinkFormatter                      
+      alias to debug.file_link_formatter                                    
+  Symfony\Component\HttpKernel\HttpKernelInterface                          
+      alias to http_kernel                                                  
+  Symfony\Component\HttpKernel\KernelInterface                              
+      alias to kernel                                                       
+  Symfony\Component\Routing\Generator\UrlGeneratorInterface                 
+      alias to router.default                                               
+  Symfony\Component\Routing\Matcher\UrlMatcherInterface                     
+      alias to router.default                                               
+  Symfony\Component\Routing\RequestContext                                  
+      alias to router.request_context                                       
+  Symfony\Component\Routing\RequestContextAwareInterface                    
+      alias to router.default                                               
+  Symfony\Component\Routing\RouterInterface                                 
+      alias to router.default                                               
+  Symfony\Component\Stopwatch\Stopwatch                                     
+      alias to debug.stopwatch                                              
+  Twig\Environment                                                          
+      alias to twig                                                         
+  Twig_Environment                                                          
+      alias to twig                                                         
+ -------------------------------------------------------------------------- 
+
